@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/item_info1"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginEnd="158dp"
+        android:layout_marginRight="158dp"
+        android:background="#ff0000"
+        android:src="@android:drawable/arrow_down_float" />
+
+    <ImageView
+        android:id="@+id/item_info2"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/name"
+        android:layout_marginEnd="125dp"
+
+        android:background="#008000"
+        android:src="@android:drawable/arrow_up_float"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="125dp" />
+
+    <ImageView
+        android:id="@+id/item_info3"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:background="#ff0000"
+        android:src="@android:drawable/arrow_down_float" />
+
+    <ImageView
+        android:id="@+id/item_info4"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:background="#008000"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <ImageView
+        android:id="@+id/item_info5"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/name"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="#008000"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="BHEL"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff0000"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="5dp"
+        android:text="O:xx.xx C:xx.xx"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="68dp"
+        android:layout_height="29dp"
+        android:layout_alignTop="@+id/name"
+        android:layout_marginTop="2dp"
+        android:layout_toLeftOf="@+id/item_info1"
+        android:layout_toStartOf="@+id/item_info1"
+        android:background="#ffffff"
+        android:text="update"
+        android:textColor="@android:color/black"
+        android:textSize="8sp" />
+
+</RelativeLayout>

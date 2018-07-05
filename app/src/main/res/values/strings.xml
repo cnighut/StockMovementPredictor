@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ST_WAR</string>
+    <string name="action_settings">Settings</string>
+    <string name = "BHEL">BHEL</string>
+</resources>
