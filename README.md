@@ -4,9 +4,15 @@ Stock Movement predictor is a stock price predictor app  for  selected 15 stocks
 
 Cron tab commands: 
 
+![GitHub Logo](/images/cron.png)
+Format: ![Alt Text](url)
+
+
+![GitHub Logo](/images/demo.jpeg)
+Format: ![Alt Text](url)
 
 [logo]: https://github.com/qawbecrdteyf/StockMovementPredictor/blob/master/images/cron.png "Logo Title Text 2"
 
 App look:
 
-[logo]: https://github.com/qawbecrdeyf/StockMovementPredictor/master/blob/images/demo.jpeg 'Look'
+[logo]: https://github.com/qawbecrdteyf/StockMovementPredictor/blob/master/images/demo.jpeg 'Look'
