@@ -1,0 +1,10 @@
+import ftplib 
+session = ftplib.FTP('203.124.114.1', 'almat', 'alma#007F')
+file = open('/home/qawbecrdteyf/Desktop/St-matlab/prediction.json', 'rb')
+#file2 = open('/home/qawbecrdteyf/Desktop/St-matlab/data.csv', 'rb')
+session.cwd('/chirag/')
+session.storbinary('STOR predictionf.json', file)
+#session.storbinary('STOR data.csv', file2)
+file.close()
+#file2.close()
+session.quit()
