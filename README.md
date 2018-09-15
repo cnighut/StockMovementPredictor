@@ -7,12 +7,7 @@ Cron tab commands:
 ![GitHub Logo](/images/cron.png)
 Format: ![Alt Text](url)
 
-
-![GitHub Logo](/images/demo.jpeg)
-Format: ![Alt Text](url)
-
-[logo]: https://github.com/qawbecrdteyf/StockMovementPredictor/blob/master/images/cron.png "Logo Title Text 2"
-
 App look:
 
-[logo]: https://github.com/qawbecrdteyf/StockMovementPredictor/blob/master/images/demo.jpeg 'Look'
+![GitHub Logo](/images/demo.jpg)
+Format: ![Alt Text](url)
