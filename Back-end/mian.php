@@ -2,9 +2,9 @@
 
 echo "start";
 
-$servername = "166.62.8.2";  
-$username = "alma18int";         
-$password="teamAlma@18";  
+$servername = "localhost";  
+$username = "root";         
+$password="";  
 $conn = mysql_connect ($servername , $username , $password) or die("unable to connect to host");  
 $sql = mysql_select_db ('alma18int',$conn) or die("unable to connect to database");
 
